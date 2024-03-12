@@ -45,7 +45,12 @@ body {
     font-size: 20px;
     font-weight: 800;
   }
-  
+
+  .navbar::before{
+    background: transparent;
+    backdrop-filter: blur(10px);
+  }
+
   .menu .navbar ul li {
     position: relative;
     float: left;
