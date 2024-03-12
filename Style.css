@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.header{
+  background-image: linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)),
+    url(https://p4.wallpaperbetter.com/wallpaper/744/804/845/computer-engineering-science-tech-wallpaper-preview.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  color: #FFFDFC;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: #FFFDFC;
+  display: block;
+  font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+  color: #de8519;
+}
+
+#menu{
+  display: none;
+}
+
+.menu-icono {
+  width: 25px;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+.header-content {
+  text-align:  center;
+}
+
+.header-content h1 {
+  font-size: 75px;
+  line-height: 80px;
+  color: #F9FAFC;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.header-content h3 {
+  font-size: 18px;
+  color: #F9FAFC;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.header-content p {
+  font-size: 18px;
+  color: #C5C5C5;
+  padding: 0 250px;
+  margin-bottom: 25px;
+}
+
+.btn-1{
+  display: inline-block;
+  padding: 11px 35px;
+  background-color: #8dd6f3;
+  color: #F9FAFC;
+  text-transform: uppercase;
+}
+
+.btn-1:hover {
+  background-color: #63a4be;
+}
+
+.Noticias {
+  padding: 100px 0;
+  background-color: #E1E2E6;
+  position: relative;
+}
+
+.Noticias-content {
+  text-align: center;
+}
+
+.Noticias-content h3 {
+  font-size: 18px;
+  color: #323337;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+
+.noticia-1 {
+  font-size: 18px;
+  color: #414247;
+  padding: 0 250px;
+  margin-bottom: 25px;
+}
+
+.Noticias-1 
+  {
+    background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url(https://s2.abcstatics.com/abc/www/multimedia/tecnologia/2023/04/26/chatgpt-reuters-RJP2s3lhh0uva9RWGSOv33O-1200x840@abc.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .Noticias-content-1 {
+    text-align: center;
+  }
+
+  .Noticias-content-1 h3 {
+    font-size: 18px;
+    color: #FFFDFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+  }
+
+  .noticia-2 {
+  font-size: 18px;
+  color: #FFFDFC;
+  padding: 0 250px;
+  margin-bottom: 25px;
+  }
+
+  .Noticias-2 
+  {
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.615),
+    rgba(0, 0, 0, 0.572)),
+    url(https://imagenes.eltiempo.com/files/image_951_475/uploads/2023/12/07/65721a545bcd8.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .Noticias-content-2 {
+    text-align: center;
+  }
+
+  .Noticias-content-2 h3 {
+    font-size: 18px;
+    color: #FFFDFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+  }
+
+  .Noticias-content-3 {
+    text-align: center;
+  }
+
+
+  .Noticias-content-3 h3 {
+    font-size: 18px;
+    color: #FFFDFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+  }
+  
+  .Noticias-3
+  {
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.615),
+    rgba(0, 0, 0, 0.572)),
+    url(https://www.the-sun.com/wp-content/uploads/sites/6/2022/11/whatsapp-voice-notes-wow-comp.jpg?w=620);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .informacion
+  {
+    text-align: center;
+  }
+
+  .informacion h3 {
+    font-size: 18px;
+    color: #FFFDFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+  }
+
+  .informacion p {
+    font-size: 18px;
+    color: #FFFDFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+  }
+  
+  .informacion
+  {
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.615),
+    rgba(0, 0, 0, 0.572)),
+    url(fotos/17024-4k.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 45vh;
+    display: flex;
+    align-items: center;
+  }
+
+  @media(max-width:991px) {
+
+    .header {
+      min-height: 0vh;
+    }
+
+    .header-content {
+      padding: 100px 30px;
+    }
+
+    .header-content p {
+      padding: 0;
+    }
+
+    .Noticias {
+      padding: 30px;
+    }
+
+    .Noticias-content {
+      padding: 0;
+    }
+
+    .noticia-1 {
+      padding: 0;
+    }
+
+    .Noticias-1{
+      padding: 30px;
+    }
+
+    .Noticias-content-1 {
+      padding: 0;
+    }
+
+    .Noticias-content-1 p {
+      padding: 0;
+    }
+
+    .Noticias-2{
+      padding: 30px;
+    }
+
+    .Noticias-content-2 {
+      padding: 0;
+    }
+
+    .Noticias-content-2 p {
+      padding: 0;
+    }
+
+    .Noticias-3{
+      padding: 30px;
+    }
+
+    .Noticias-content-3 {
+      padding: 0;
+    }
+
+    .Noticias-content-3 p {
+      padding: 0;
+    }
+
+    .informacion{
+      padding: 30px;
+    }
+
+    .informacion-content {
+      padding: 0;
+    }
+
+    .informacion-content p {
+      padding: 0;
+    }
+
+  }

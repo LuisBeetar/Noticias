@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.header{
+  background-image: linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)),
+    url(fotos/17022-4k.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo{
+    color: #FFFDFC;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  
+  .menu .navbar ul li {
+    position: relative;
+    float: left;
+  }
+  
+  .menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+  }
+  
+  .menu .navbar ul li a:hover{
+    color: #de8519;
+  }
+  
+  #menu{
+    display: none;
+  }
+  
+  .menu-icono {
+    width: 25px;
+  }
+  
+  .menu label {
+    cursor: pointer;
+    display: none;
+  }
+
+
+.header-content {
+    text-align:  center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+  }
+  
+  .header-content h3 {
+    font-size: 18px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+  }
+  
+  .header-content p {
+    font-size: 18px;
+    color: #C5C5C4;
+    padding: 0 250px;
+    margin-bottom: 25px;
+  }
+
+*,*::after, *::before{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#carga{
+    border: 15px solid #ccc;
+    border-top-color: #f4266a;
+    border-top-style: groove;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: -250px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: girar 1.5s linear infinite;
+}
+
+@keyframes girar {
+    from { transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+}
